@@ -14,9 +14,9 @@
   </head>
   <body>
     <!-- HEADER-->
-      <header>
+      <header class="header">
       <div class="container">
-      <nav>
+      <nav class="nav-header">
         <a href="index.html" class="logo-link"><span class="logo-accent">Web</span>Studio</a>
         <ul class="nav">
           <li><a href="./index.html" class="nav-link current-link">Студия</a></li>
@@ -24,16 +24,16 @@
           <li><Kонтакты href=""class="nav-link">Kонтакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a></li>
+      <ul class="header-contacts">
+        <li><a href="mailto:info@devstudio.com" class="header-contact">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="header-contact">+38 096 111 11 11</a></li>
       </ul>
       </div>
     </header>
     <!--Hero section-->
     <main>
-      <section class="hero">
-        <div class="container">
+      <section class="section hero">
+        <div class="container ">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="button">Заказать услугу</button>
         </div>
@@ -42,23 +42,23 @@
       <section class="advantag">
          <div class="container">
         <ul class="advantag-list">
-          <li>
+          <li class="advantag-item">
             <h3 class="advantag-title">Внимание к деталям</h3>
             <p class="advantag-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
-          <li>
+          <li class="advantag-item">
             <h3 class="advantag-title">Пунктуальность</h3>
             <p class="advantag-text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="advantag-item">
             <h3 class="advantag-title">Планирование</h3>
             <p class="advantag-text">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="advantag-item">
             <h3 class="advantag-title">Современные технологии</h3>
             <p class="advantag-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
@@ -70,9 +70,9 @@
          <div class="container">
         <h2 class="doin-title">Чем мы занимаемся</h2>
         <ul class="doin-list">
-          <li>
+          <li.>
             <img src="./imajes/table.jpg" alt="клавиатура" height="294" width="370" />
-          </li>
+          </li.>
           <li>
             <img src="./imajes/phone.jpg" alt="телефон" height="294" width="370" />
           </li>
@@ -114,11 +114,15 @@
    <footer class="footer-section">
       <div class="container">
       <a href="/" class="footer-logo"><span class="logo-accent">Web</span>Studio</a>
-      <address class="address">
-        г. Киев, пр-т Леси Украинки, 26 <br />
+   
+      <br class="address">
+       <span class="footer-span"> г. Киев, пр-т Леси Украинки, 26 <br />
         <a href="mailto:info@example.com" class="footer-contacts">info@example.com</a> <br />
-        <a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a>
+        <a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a> 
+        </span>
       </address>
+    
+      
       </div>
     </footer>
   </body>
