@@ -304,6 +304,7 @@ padding-right: 237px;
 
 .footer-logo {
   margin-bottom: 20px;
+
   color: #FFFFFF;
 
   font-family: raleway, sans-serif;
@@ -314,11 +315,10 @@ padding-right: 237px;
   text-decoration: none;
 }
 
-.container>.footer-span {
+.container> .address {
   margin-right: 9px
 }
 .address {
-  margin-top: 20px;
 
   color: #FFFFFF;
 
