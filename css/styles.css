@@ -390,7 +390,7 @@ margin-right: 50px;
 /* Portfolio.html */
 /*Projects */
 
-
+  
 .projects-button {
   padding: 6px 22px;
   color: var(--title-color);
@@ -416,6 +416,8 @@ margin-right: 50px;
 }
 
 .projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
   
   margin-top: 0px;
   margin-bottom: 0px;
@@ -440,6 +442,8 @@ margin-right: 50px;
 
 
 .projects-name {
+  padding-top: 20px;
+  padding-bottom: 4px;
   color: var(--title-color);
 
   font-weight: 700;
@@ -449,6 +453,7 @@ margin-right: 50px;
 }
 
 .projects-type {
+  padding-bottom: 20px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
